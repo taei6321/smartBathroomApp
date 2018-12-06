@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SmartBathroom</string>
+
+    <!-- prefence keys, no translation needed -->
+    <string name="pref_commands_mode" translatable="false">pref_commands_mode</string>
+    <string name="pref_checksum_mode" translatable="false">pref_checksum_mode</string>
+    <string name="pref_commands_ending" translatable="false">pref_commands_ending</string>
+    <string name="pref_log_timing" translatable="false">pref_log_timing</string>
+    <string name="pref_log_direction" translatable="false">pref_log_direction</string>
+    <string name="pref_need_clean" translatable="false">pref_need_clean</string>
+    <!-- prefence keys, no translation needed -->
+
+    <string name="msg_not_connected" translatable="false">not connected</string>
+    <string name="msg_connecting" translatable="false">connecting…</string>
+    <string name="msg_connected" translatable="false">connected</string>
+
+    <string name="action_bluetooth" translatable="false">on/off</string>
+    <string name="no_bt_support" translatable="false">Your device doesn\'t support bluetooth.</string>
+    <string name="empty_device_name" translatable="false">&lt;New device&gt;</string>
+
+    <string name="menu_send" translatable="false">Send log…</string>
+    <string name="menu_settings" translatable="false">Settings</string>
+    <string name="menu_clear" translatable="false">Clear history</string>
+
+    <string name="select_device" translatable="false">Select device</string>
+    <string name="search_message" translatable="false">Search for devices…</string>
+    <string name="title_paired_devices" translatable="false">Paired devices</string>
+    <string name="title_other_devices" translatable="false">Other devices</string>
+    <string name="none_paired" translatable="false">No paired devices</string>
+    <string name="none_found" translatable="false">Not found</string>
+    <string name="command_hint" translatable="false">Enter command here</string>
+    <string name="button_send" translatable="false">Send</string>
+
+    <!-- Настройки -->
+    <string name="log_settings_category" translatable="false">Command history:</string>
+
+    <string name="log_time" translatable="false">Time</string>
+    <string name="log_time_summary" translatable="false">Show time in log</string>
+    <string name="log_direction" translatable="false">Direction</string>
+    <string name="log_direction_summary" translatable="false">Show I/O direction in log</string>
+
+    <string name="commands_mode" translatable="false">Input mode:</string>
+    <string name="checksum_mode" translatable="false">Checksum</string>
+    <string name="checksum_mode_summary" translatable="false">Add checksum to command</string>
+    <string name="commands_mode_summary" translatable="false">Select input mode</string>
+    <string name="commands_ending_summary" translatable="false">Select ending</string>
+
+    <string name="need_clean" translatable="false">Clear previous command</string>
+    <string name="need_clean_summary" translatable="false">Cleanup command view after sending</string>
+    <string name="temperature_label" translatable="false">Temp:</string>
+    <string name="temperature_unit" translatable="false">oC</string>
+    <string name="humidity_label" translatable="false">Humi:</string>
+    <string name="humidity_unit" translatable="false">%</string>
+    <string name="led_label" translatable="false">LED</string>
+    <string name="led_on" translatable="false">ON</string>
+    <string name="timeout_ret_led_status" translatable="false">LED 상태 요청 실패</string>
+    <string name="timeout_chg_led_status" translatable="false">LED 상태 변경 실패</string>
+    <string name="invalid_command" translatable="false">유효하지 않은 명령어</string>
+    <string name="already_command_running" translatable="false">이미 수행 중</string>
+</resources>
